@@ -14,10 +14,45 @@
 }
 
 :root {
+  font-size: 62.5%;
   --clickable-color: #596D48;
+  --main-font: 'Roboto', sans-serif;
 }
 
 input {
   appearance: none;
   border: 1px solid #e5e7eb;
+}
+
+p {
+  width: clamp(45ch, 50%, 75ch);
+  padding: 1rem 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: #f9fafb;
+}
+
+/* side bar styles start */
+.side-image img {
+  max-height: 100vh;
+  width: auto;
+}
+
+/* main page styles start */
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main > section {
+  padding: 2.4rem; 
+}
+
+.main-sign-up-form {
+  background-color: #ffffff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
