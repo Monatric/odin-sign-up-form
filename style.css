@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: norse-bold;
+  src: url(/assets/Norse-Bold.otf);
+}
+
+:root {
+  --clickable-color: #596D48;
+}
+
+input {
+  appearance: none;
+  border: 1px solid #e5e7eb;
+}
