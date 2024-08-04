@@ -22,6 +22,24 @@
 input {
   appearance: none;
   border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 0.3rem;
+  outline-color: blue;
+}
+
+input:focus-visible {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-color: blue;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input:focus:invalid {
+  border-color: red;
+  outline-color: red;
 }
 
 p {
@@ -33,6 +51,8 @@ p {
 
 label {
   font-family: var(--main-font);
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 label, h3 {
@@ -77,4 +97,15 @@ body {
 .main-sign-up-form-header {
   font-size: 1.8rem;
   font-family: var(--main-font);
+}
+
+.form-row {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
