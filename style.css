@@ -104,6 +104,7 @@ body {
   display: flex;
   gap: 4rem;
   margin: 2rem 0;
+  flex-wrap: wrap;
 }
 
 .form-group {
