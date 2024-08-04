@@ -46,7 +46,7 @@ p {
   width: clamp(45ch, 50%, 75ch);
   padding: 1rem 0;
   font-family: var(--main-font);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 label {
@@ -109,4 +109,26 @@ body {
 .form-group {
   display: flex;
   flex-direction: column;
+}
+
+.btn {
+  padding: 1rem 4.5rem;
+  font-size: 1.6rem;
+  background-color: var(--clickable-color);
+  color: #fff;
+  appearance: none;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-text {
+  margin-top: 2rem;
+}
+
+span a {
+  color: var(--clickable-color);
+  font-weight: 700;
 }
