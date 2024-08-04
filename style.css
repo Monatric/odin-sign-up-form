@@ -67,9 +67,47 @@ body {
 }
 
 /* side bar styles start */
-.side-image img {
+.side-bar {
+  position: relative;
+}
+
+.side-image {
   max-height: 100vh;
   width: auto;
+}
+
+.card-body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  top: 8rem;
+  text-align: center;
+  font-size: 5rem;
+  font-family: norse-bold;
+  padding: 2rem;
+}
+
+.card-header-image {
+  height: 100px;
+}
+
+.image-credits {
+  position: absolute;
+  bottom: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.image-credits a {
+  text-decoration: underline;
+}
+
+.image-credits a:visited {
+  color: #fff;
 }
 
 /* main page styles start */
