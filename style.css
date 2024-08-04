@@ -27,6 +27,16 @@ input {
 p {
   width: clamp(45ch, 50%, 75ch);
   padding: 1rem 0;
+  font-family: var(--main-font);
+  font-size: 1.8rem;
+}
+
+label {
+  font-family: var(--main-font);
+}
+
+label, h3 {
+  color: #5f6670;
 }
 
 body {
@@ -52,7 +62,19 @@ body {
   padding: 2.4rem; 
 }
 
+.main-header-text {
+}
+
+.main-header-text strong {
+  font-style: italic;
+}
+
 .main-sign-up-form {
   background-color: #ffffff; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-sign-up-form-header {
+  font-size: 1.8rem;
+  font-family: var(--main-font);
 }
